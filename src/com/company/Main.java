@@ -6,7 +6,6 @@ import com.j4ev3.core.Motor;
 import com.j4ev3.desktop.BluetoothComm;
 
 import java.awt.event.*;
-import java.util.Scanner;
 import javax.swing.*;
 
 /*public class SimpleGUI extends JFrame{
@@ -19,7 +18,7 @@ import javax.swing.*;
 }*/
 public class Main {
     public static class SimpleGUI {
-        JFrame f;
+        private JFrame f;
 
         SimpleGUI(Brick brick) {
 
